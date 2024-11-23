@@ -2,6 +2,10 @@
 
 A Flutter application that predicts student adaptability in online learning environments using a machine learning model deployed on Google Cloud Run.
 
+## Vidoe Submission Link 
+(Comment: I wanted to submit to youtube but I had some issues so I submitted to loom)
+https://www.loom.com/share/77261ca7691945f6bf68058c16b74a0a?sid=5367985d-a753-4ee6-9182-43fa3f7219e7
+
 ## Project Overview
 
 This system helps predict a student's adaptability level (High, Moderate, or Low) for online learning based on various parameters including:
