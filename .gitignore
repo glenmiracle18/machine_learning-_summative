@@ -1,0 +1,12 @@
+# Ignore Python modules
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyi
+
+# Ignore Flutter modules
+/.dart_tool/
+/.packages
+.pub-cache/
+build/
