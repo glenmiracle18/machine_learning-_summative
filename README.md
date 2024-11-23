@@ -103,13 +103,13 @@ The backend is containerized and deployed on Google Cloud Run:
 
 1. Built Docker image:
 ```bash
-docker build -t learning-mode-api .
+docker build -t yaralexie/summative_ml:v5.0 .
 ```
 
 2. Pushed to Docker Hub:
 ```bash
-docker tag learning-mode-api username/learning-mode-api:latest
-docker push username/learning-mode-api:latest
+docker tag summative_ml yaralexie/summative_ml:v5.0
+docker push username/yaralexie/summative_ml:v5.0
 ```
 
 3. Deployed to Google Cloud Run:
@@ -134,8 +134,8 @@ gcloud run deploy summative-ml \
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/learning-mode-recommendation.git
-cd learning-mode-recommendation
+git clone https://github.com/glenmiracle18/machine_learning_summative.git
+cd machine_learning_summative
 ```
 
 2. Get dependencies:
@@ -166,12 +166,12 @@ The API will be available at `http://localhost:8000`
 
 1. Build the Docker image:
 ```bash
-docker build -t learning-mode-api .
+docker build -t summative_ml:v5.0 .
 ```
 
 2. Run the container:
 ```bash
-docker run -p 8000:8000 learning-mode-api
+docker run -p 8000:8000 summative_ml:v5.0
 ```
 
 ## Features
